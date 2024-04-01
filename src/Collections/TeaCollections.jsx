@@ -6,7 +6,7 @@ import Carousel from '../components/Carousel'
 
 const TeaCollections = () => {
   return (
-    <div>Red Label
+    <div>
       <Header/>
       <Carousel/>
       <Card/>
