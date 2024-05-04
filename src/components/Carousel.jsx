@@ -6,12 +6,15 @@ const Carousel = () => {
   <div id="carouselExample" className="carousel slide">
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="http://womensbeautyoffers.com/wp-content/uploads/2019/03/holi_store_banner_pc_1500x300._CB1198675309_.jpg" className="d-block w-100" alt="..." />
+        <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1apr24-crsl-dg-pune.jpg&w=1920&q=75" className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="https://images.freekaamaal.com/holi-images/holi_banner2.png" className="d-block w-100" alt="..." />
+        <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F15feb23-crsl-beautystore.jpg&w=1920&q=75" className="d-block w-100" alt="..." />
       </div>
-      <div className="https://tse4.mm.bing.net/th?id=OIP.7TkZK53DL130mK0e4piNFgHaCe&pid=Api&P=0&h=180">
+      <div className="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1jan24-crsl-serveware.jpg&w=1920&q=75">
+        <img src="" className="d-block w-100" alt="..." />
+      </div>
+      <div className="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1apr24-crsl-ds-pune.jpg&w=1920&q=75 ">
         <img src="" className="d-block w-100" alt="..." />
       </div>
     </div>

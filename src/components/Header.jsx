@@ -1,7 +1,9 @@
 import React from 'react'
 import {  Link} from "react-router-dom";
+import cart_icon from '../components/cart_icon.png'
 
 const Header = () => {
+  // const {getTotalCartItems} = useContext(ShopContext);
   return (
     <>
      <nav className="navbar navbar-expand-lg bg-body-tertiary" >
@@ -23,46 +25,50 @@ const Header = () => {
         <input className="form-control me-2" style={{width:"500px"}} placeholder="Aap ko Kya Chahiye ?" aria-label="Search" />
         <button className="btn-success" type="submit" style={{backgroundColor:"green"}}>Search</button>
       </form>
-      <span className="nav-item">
+      {/* <span className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/SignIn" >Sign-In/Register </Link>
-        </span>
-        <span className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/Cart">Cart </Link>
-        </span>
+        </span> */}
+        {/* <div className="nav-login-cart">
+         <Link to='/Cart'><img src={cart_icon} alt="" /></Link>
+        <div className="nav-cart-count">0</div>
+      </div> */}
+      <div className="nav-login-cart">
+      <Link to='/login'><button>Login</button></Link>
+      <Link to='/Cart'><img src={cart_icon} alt="" /></Link>
+        <div className="nav-cart-count">
+          {/* {getTotalCartItems()} */}0
+          </div>
+      </div>
     </div>
   </div>
 </nav>
-<div style={{display:"flex",gap:"30px",color:"black",border:"1px solid black"}}>
-<ul className="nav nav-underline">
+<div style={{display:"flex",gap:"30px",color:"green",border:"1px solid black" }}>
+<ul className="nav nav-underline" style={{color:"green"}} >
 <li className="nav-item" style={{marginRight:"50px"}}>
-    <Link className="nav-link" to="/AllCategories" >All Category |</Link>
+    <Link className="nav-link" to="/AllCategories"  >All Category |</Link>
   </li>
   <li className="nav-item">
-    <Link to="/valuePack" className="nav-link" >Value Pack</Link>
+    <Link to="/valuePack" className="nav-link"  >Value Pack</Link>
   </li>
   <li className="nav-item">
-    <Link className="nav-link" to="/ReadyToCook" >Ready To Cook</Link>
+    <Link className="nav-link" to="/ReadyTOCookCardSection" >Ready To Cook</Link>
   </li>
    <li className="nav-item">
-    <Link className="nav-link" to="/HomeAppliances">Home Appliance</Link>
+    <Link className="nav-link" to="/HomeApplianceSection">Home Appliance</Link>
   </li>
    <li className="nav-item">
-    <Link className="nav-link"  to="/Cookware">Cookaware</Link>
+    <Link className="nav-link"  to="/CookwareSection">Cookware</Link>
   </li>
   <li className="nav-item">
-    <Link className="nav-link"  to="/Serveware">Serveware</Link>
+    <Link className="nav-link"  to="/ServewareSection">Serveware</Link>
   </li>
   <li className="nav-item">
-    <Link className="nav-link"  to="/Cleaners">Cleanser</Link>
+    <Link className="nav-link"  to="/CleanserSection">Cleanser</Link>
   </li>
   <li className="nav-item">
-    <Link  className="nav-link"  to="/Detergents">Detergents</Link>
+    <Link  className="nav-link"  to="/DetergentAndFabricSection">Detergents</Link>
   </li>
-  <li className="nav-item">
-    <Link  className="nav-link"  to="/Detergents">bathroom cleaner</Link>
-  </li>
-
-</ul>
+ </ul>
 
 </div>
 

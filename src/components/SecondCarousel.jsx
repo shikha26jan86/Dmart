@@ -4,25 +4,16 @@ const SecondCarousel = () => {
   return (
     <div style={{padding:"30px"}}>
   <div id="carouselExample" className="carousel slide">
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1jan24-curated-halfprice.jpg" className="d-block w-100" alt="..." />
-      </div>
-      <div className="carousel-item">
-        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1jan24-curated-halfprice.jpg" className="d-block w-100" alt="..." />
-      </div>
-      <div className="carousel-item">
-        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1jan24-curated-bmh-pune.jpg" className="d-block w-100" alt="..." />
-      </div>
-    </div>
-    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span className="carousel-control-prev-icon" aria-hidden="true" />
-      <span className="visually-hidden">Previous</span>
-    </button>
-    <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span className="carousel-control-next-icon" aria-hidden="true" />
-      <span className="visually-hidden">Next</span>
-    </button>
+    
+    
+  <div>
+    <img  src="https://thumbs.dreamstime.com/b/holi-dhamaka-offer-to-discount-offers-realistic-festival-elements-yellow-texture-background-advertisement-header-135776074.jpg" className="card-img-top" alt="..." />
+  </div>
+  <div style={{padding:"45px",border:"1px solide gray"}}>
+  <img  src="https://cdn.dmart.in/images/rwd/banners/curated/1apr24-curated-halfprice.jpg " className="card-img-top" alt="..." />
+  </div>
+  
+ 
   </div>
 </div>
 
